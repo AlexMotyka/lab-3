@@ -22,9 +22,9 @@ $(document).ready(function()
   Morris.Donut({
     element: 'secondchart',
     data: [
-      {label: "Download Sales", value: 12},
-      {label: "In-Store Sales", value: 30},
-      {label: "Mail-Order Sales", value: 20}
+      {label: "Under 10 Minutes", value: 12},
+      {label: "Between 10 min to 60 min", value: 30},
+      {label: "Hour or longer", value: 20}
     ]
   });
 });
