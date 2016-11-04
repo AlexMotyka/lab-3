@@ -1,0 +1,20 @@
+    body{
+      padding-top: 65px;
+    }
+
+    p.pad-below{
+      padding-bottom: 15px;
+    }
+
+    h1.thick{
+      font-weight: bold;
+    }
+
+    ul.nodot {
+      list-style-type: none;
+    }
+
+    img.normal {
+      max-width: 100%;
+      height: auto;
+    }
