@@ -16,7 +16,8 @@ $(document).ready(function()
     // A list of names of data record attributes that contain y-values.
     ykeys: ['value'],
     // Labels for the ykeys -- will be displayed when you hover over the chart.
-    labels: ['Value']
+    labels: ['Value'],
+    lineColors: ['#6b9430']
   });
 
   Morris.Donut({
@@ -25,6 +26,7 @@ $(document).ready(function()
       {label: "Under 10 Minutes", value: 12},
       {label: "Between 10 min to 60 min", value: 30},
       {label: "Hour or longer", value: 20}
-    ]
+    ],
+    colors: ['#6b9430', '#799e44', '#97b46e']
   });
 });
