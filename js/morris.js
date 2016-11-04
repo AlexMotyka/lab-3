@@ -1,30 +1,28 @@
 $(document).ready(function()
 {
   new Morris.Line({
-    // ID of the element in which to draw the chart.
     element: 'firstchart',
-    // Chart data records -- each entry in this array corresponds to a point on the chart.
     data: [
-      { year: '2008', value: 20 },
-      { year: '2009', value: 10 },
-      { year: '2010', value: 5 },
-      { year: '2011', value: 5 },
-      { year: '2012', value: 20 }
+      { year: '2012', value: 8 },
+      { year: '2013', value: 17 },
+      { year: '2014', value: 16 },
+      { year: '2015', value: 24 },
+      { year: '2016', value: 30 }
     ],
     // The name of the data record attribute that contains x-values.
     xkey: 'year',
     // A list of names of data record attributes that contain y-values.
     ykeys: ['value'],
     // Labels for the ykeys -- will be displayed when you hover over the chart.
-    labels: ['Value'],
-    lineColors: ['#6b9430']
+    labels: ['Number of New Recipes'],
+    lineColors: ['#6b9430'],
   });
 
   Morris.Donut({
     element: 'secondchart',
     data: [
-      {label: "Under 10 Minutes", value: 12},
-      {label: "Between 10 min to 60 min", value: 30},
+      {label: "Under 10 Minutes", value: 16},
+      {label: "Between 10 min to 60 min", value: 54},
       {label: "Hour or longer", value: 20}
     ],
     colors: ['#6b9430', '#799e44', '#97b46e']
