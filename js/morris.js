@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-  new Morris.Line({
+  Morris.Line({
     element: 'firstchart',
     data: [
       { year: '2012', value: 8 },
@@ -9,13 +9,10 @@ $(document).ready(function()
       { year: '2015', value: 24 },
       { year: '2016', value: 30 }
     ],
-    // The name of the data record attribute that contains x-values.
     xkey: 'year',
-    // A list of names of data record attributes that contain y-values.
     ykeys: ['value'],
-    // Labels for the ykeys -- will be displayed when you hover over the chart.
     labels: ['Number of New Recipes'],
-    lineColors: ['#6b9430'],
+    lineColors: ['#6b9430']
   });
 
   Morris.Donut({
