@@ -17,7 +17,7 @@ The data that will be stored in the data base will be the recipes and the review
 
 ## Notes
 
-- Remember to clean `.DS_Store` files before zip or upload. (macOS)
+- Remember to clean `.DS_Store` files and ` __MACOSX` folders before zip or upload. (macOS)
 
 - Do NOT put space in file name.
 
@@ -25,8 +25,8 @@ The data that will be stored in the data base will be the recipes and the review
 
 `<div class="row">`
 
- `<div class="col-md-8">.col-md-8</div>`
+` <div class="col-md-8">.col-md-8</div>`
  
- `<div class="col-md-4">.col-md-4</div>`
+` <div class="col-md-4">.col-md-4</div>`
  
 `</div>`
